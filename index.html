@@ -4,30 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- add fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
 
     <title>extensão TT</title>
-   
   </head>
   <body>
-    <h1>minha extensão: </h1>
     <div class="container-pai">
-        <input type="text" name="text" id="input-text" placeholder="digite o texto aqui: " class="input-text" />
-  
+      <div class="logo-Inicio">
+        <img src="./icons/logo-vetor-16px.png" />
+        <h1>TRANSFORME textos</h1>
+      </div>
 
-    <div class="container-button">
+      <input
+        type="text"
+        name="text"
+        id="input-text"
+        placeholder="digite o texto aqui: "
+        class="input-text"
+      />
+
+      <div class="container-button">
         <button type="button" class="btn" id="btnMaiuscula">MAISCÚLA</button>
-         <button type="button" class="btn" id="btnMinuscula">minúscula</button>
-    </div>
-    
-     <div name="resultado" class="resultado" id="resultado">Resultado: </div>
-    
+        <button type="button" class="btn" id="btnMinuscula">minúscula</button>
+      </div>
 
+      <div name="resultado" id="resultado" class="resultado">
+        <textarea class="input-Result" type="text" name="input-Result" id="input-Result" placeholder="Resultado"></textarea>
+      </div>
+
+      <p>Para mais opções, visite:</p>
+      <a href="tiagoneves.com.br">tiagoneves.com.br</a>
     </div>
   </body>
   <script src="script.js"></script>
 </html>
+
+
+

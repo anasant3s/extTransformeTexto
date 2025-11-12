@@ -4,11 +4,11 @@
     box-sizing: border-box;
 
     /* fonts */
-    font-family: "Ubntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 12px;
 
     /*borda de desenvolvimento*/
-    border: solid 1px purple;
+    /* border: solid 1px purple; */
 
 }
 
@@ -48,4 +48,32 @@
 
     cursor: pointer;
 }
+
 /*configutação do resultado*/
+
+.resultado {
+    width: 160px; 
+    height: 74px;
+    display: block;
+
+}
+
+.input-Result {
+    width: 160px;
+    height: 70px;     
+    padding-left: 5px;     
+    box-sizing: border-box;
+    resize: none;       
+    overflow: auto;
+ 
+}
+
+
+.logo-Inicio{
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px 3px;
+    text-align: center ;
+
+}
