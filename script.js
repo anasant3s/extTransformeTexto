@@ -45,5 +45,11 @@ window.document.addEventListener("DOMContentLoaded", function () {
             outputElement.textContent = textoFinal;
         }
 
+//BTN LIMPAR
 
-//
+const botaoLimpar = document.getElementById('btnLimpar');
+botaoLimpar.addEventListener('click', function() {
+    // 3. OS CAMPOS QUE QUER LIMPAAAAAAAAARR
+    document.getElementById('input-text').value = '';
+    document.getElementById('input-Result').value = '';
+});
